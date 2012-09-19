@@ -1,0 +1,46 @@
+/* Uncomment if you have an image you want as your background */
+body{background:#fff url('../img/background.png') top left no-repeat;}
+
+/* -----------------------------------------
+   Foundation Icon Fonts from Zurb
+----------------------------------------- */
+[class*="social foundicon-"]:before {
+  font-family: "SocialFoundicons";
+}
+[class*="general foundicon-"]:before {
+  font-family: "GeneralFoundicons";
+}
+[class*="gen-enclosed foundicon-"]:before {
+  font-family: "GeneralEnclosedFoundicons";
+}
+[class*="accessibility foundicon-"]:before {
+  font-family: "AccessibilityFoundicons";
+}
+/* End Foundation Icon Fonts */
+
+h1 a,h1 a:hover,h1 a:visited {text-decoration:none;color:inherit;}
+h1 a:hover {color:#ff9900;}
+ul.inline li { display:inline; }
+ul.inline li a span {display:none;}
+@media (min-width: 768px) and (max-width: 979px) {
+	.mt50 { margin-top:20px; }
+}
+@media (max-width: 767px) {
+	.mt50 { margin-top:15px; }
+	.offset2 {
+		margin-left:0;
+		*margin-left:0;
+	}
+}
+@media (max-width: 480px) {
+	.mt50 { margin-top:5px; }
+	.mt5 {margin-top:15px;}
+	h3 {font-size:20px;line-height:30px;}
+	.pull-right {float:none;}
+	ul.inline { display:block; }
+	a.mr15 {margin-right:0;}
+	ul.inline li a span {display:inline;}
+	ul.inline li { display:block; border-top:1px solid #eee; padding:4px 0 6px; line-height:30px; }
+	ul.inline li:last-child { border-bottom:1px solid #eee; }
+	ul.inline li a i {position:relative;top:4px;display:inline;}
+}
